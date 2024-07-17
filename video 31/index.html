@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INtroduction to React</title>
+    <style>
+.box{
+    border: 2px solid black;
+    background-color: red;
+    width: 230px;
+    height: 230px;
+    margin: 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="booxes">
+        <div class="box1 box">I am box 1</div>
+        <div class="box2 box">I am a box 2</div>
+        <div class="box3 box">I am a box 3</div>
+    </div>
+    <script>
+        setTimeout(() => {
+            document.querySelector(".box1").innerHTML = "Hello"
+
+        }, 1000);
+        setTimeout(() => {
+            document.querySelector(".box2").innerHTML= "Hey"
+        }, 2000);
+        setTimeout(() => {
+            document.querySelector(".box3").innerHTML = "Hey Hello"
+        }, 3000);
+    </script>
+</body>
+</html>

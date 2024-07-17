@@ -1,0 +1,14 @@
+.card{
+    width: 20vw;
+    border: 2px solid red;
+    margin: 23px;
+    height: 300px;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    margin: 23px;
+}
+p{
+    text-align: center;
+}
